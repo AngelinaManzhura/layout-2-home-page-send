@@ -1,0 +1,304 @@
+.header {
+  width: 100%;
+}
+.header-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0 20px;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 335px;
+  margin: 0 auto;
+}
+
+.header-add-info {
+  background-color: #0C4B35;
+}
+.header-add-info-content {
+  height: 55px;
+  color: #ffffff;
+}
+
+.contact-information {
+  display: flex;
+}
+.contact-information-item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.contact-information-item-text {
+  display: none;
+  margin-left: 10px;
+}
+
+.language {
+  display: flex;
+  align-items: center;
+}
+.language-text {
+  margin-right: 5px;
+}
+
+.header-main-info {
+  background-color: #ffffff;
+}
+.header-main-info-content {
+  height: 70px;
+  color: #212529;
+}
+
+.header-information-plants {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-information-plants-nav {
+  display: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+.logo-img {
+  width: 90px;
+  height: 40px;
+}
+
+.header-information-plants-button {
+  display: flex;
+  align-items: center;
+}
+.header-information-plants-button p {
+  display: none;
+}
+.header-information-plants-button-phone {
+  width: 40px;
+  height: 34px;
+  border: none;
+  border-radius: 10px;
+  background-color: #00730C;
+}
+.header-information-plants-button-phone img {
+  width: 20px;
+  height: 18px;
+}
+.header-information-plants-button-burger {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  padding: 0;
+  border: none;
+  background-color: #ffffff;
+}
+
+@media (min-width: 375px) {
+  .header-content {
+    max-width: 707px;
+  }
+}
+@media (min-width: 768px) {
+  .header-content {
+    max-width: 904px;
+  }
+  .contact-information-item-text {
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+  .language-text {
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .header-information-plants {
+    width: 100%;
+    max-width: 688px;
+  }
+  .header-information-plants-nav {
+    display: flex;
+    width: 100%;
+    max-width: 538px;
+    margin-right: 20px;
+  }
+  .header-information-plants-nav-list {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0;
+    list-style: none;
+  }
+  .header-information-plants-nav-list li {
+    display: flex;
+    align-items: center;
+  }
+  .header-information-plants-nav-list li:not(:last-child) {
+    margin-right: 10px;
+  }
+  .header-information-plants-nav-list a:hover {
+    color: #00730C;
+  }
+  .header-information-plants-nav-link {
+    text-decoration: none;
+    margin-right: 5px;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #212529;
+  }
+  .header-information-plants-button-burger {
+    display: none;
+  }
+  .header-information-plants-button-phone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    color: #ffffff;
+  }
+  .header-information-plants-button-phone img {
+    width: 20px;
+    height: 20px;
+  }
+  .header-information-plants-button-phone p {
+    display: block;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+@media (min-width: 1024px) {
+  .header-container {
+    padding: 0 60px;
+  }
+  .header-content {
+    max-width: 1052px;
+  }
+  .header-information-plants {
+    max-width: 788px;
+  }
+  .header-information-plants-nav {
+    max-width: 638px;
+    margin-right: 50px;
+  }
+  .logo {
+    margin-right: 100px;
+  }
+  .language-text {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1440px) {
+  .header-container {
+    padding: 0 190px;
+  }
+  .header-content {
+    max-width: 1408px;
+  }
+  .header-information-plants {
+    max-width: 863px;
+  }
+  .header-information-plants-nav {
+    max-width: 663px;
+  }
+  .logo {
+    margin-right: 150px;
+  }
+  .logo-img {
+    width: 120px;
+    height: 55px;
+  }
+}
+@media (min-width: 1920px) {
+  .header-information-plants {
+    max-width: 883px;
+  }
+  .contact-information-item-text {
+    font-size: 14px;
+  }
+  .header-information-plants-button-phone {
+    width: 120px;
+    height: 50px;
+  }
+  .header-information-plants-button-phone img {
+    width: 30px;
+    height: 30px;
+  }
+}
+.main {
+  width: 100%;
+}
+
+.banner-container {
+  width: 100%;
+  padding: 0 20px;
+}
+.banner-content {
+  width: 100%;
+  max-width: 335px;
+  margin: 0 auto;
+}
+.banner-decor {
+  background: linear-gradient(39.89deg, rgba(0, 115, 12, 0.81) -22.86%, rgba(251, 246, 238, 0) 116.18%);
+}
+.banner-image {
+  font-size: 0;
+}
+.banner-image-main {
+  width: 100%;
+}
+.banner-image-iditional {
+  display: none;
+}
+.banner-hat {
+  display: flex;
+  align-items: center;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #212529;
+}
+.banner-hat-image {
+  margin-right: 5px;
+}
+.banner-title {
+  margin-top: 10px;
+  font-family: "Nunito", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #212529;
+}
+.banner-title-accent {
+  color: #00730C;
+}
+.banner-text {
+  margin-top: 15px;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+button:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
